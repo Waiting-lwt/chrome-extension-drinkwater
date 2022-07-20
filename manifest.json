@@ -1,0 +1,23 @@
+{
+    "name": "健康小助手",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "description": "健康小助手",
+    "icons": {
+        "48": "static/icon_48.jpg",
+        "128": "static/icon_128.jpg"
+    },
+    "action": {
+        "default_title": "喝水",
+        "default_icon": "static/icon_48.jpg",
+        "default_popup": "index.html"
+    },
+    "background": {
+        "server_worker": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "storage"
+    ]
+}
